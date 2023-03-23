@@ -1,0 +1,167 @@
+#contact .contact1 {
+  background-image: url(../img/REJ93.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+#contact .contact1 .contact-text {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+#contact .contact1 .contact-text h1 {
+  color: #072f60;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+}
+#contact .contact1 .contact-text .mini-box span {
+  padding-right: 15px;
+  color: #666666;
+  cursor: pointer;
+}
+#contact .contact1 .contact-text .mini-box span:hover {
+  color: #3bbca7;
+}
+#contact .contact1 .contact-text .mini-box p {
+  padding-left: 5px;
+  color: #3bbca7;
+  cursor: pointer;
+}
+
+#telephone {
+  width: 60%;
+  margin: auto;
+}
+#telephone .telephone1 {
+  text-align: center;
+  border-right: 1px solid #d1d1d1;
+  padding: 20px;
+}
+#telephone .telephone1 img {
+  padding-bottom: 20px;
+}
+#telephone .telephone1 h5 {
+  font-size: 20px;
+}
+#telephone .telephone1 p {
+  color: #666666;
+}
+#telephone .telephone2 {
+  text-align: center;
+  border-right: 1px solid #d1d1d1;
+  padding: 20px;
+}
+#telephone .telephone2 img {
+  padding-bottom: 20px;
+}
+#telephone .telephone2 h5 {
+  font-size: 20px;
+}
+#telephone .telephone2 p {
+  color: #666666;
+}
+#telephone .telephone3 {
+  text-align: center;
+  padding: 10px;
+}
+#telephone .telephone3 img {
+  padding-bottom: 20px;
+}
+#telephone .telephone3 h5 {
+  font-size: 20px;
+}
+#telephone .telephone3 p {
+  color: #666666;
+}
+
+#support {
+  width: 70%;
+  margin: 100px auto;
+}
+#support .support-input {
+  margin-top: 20px;
+}
+#support .support-input input {
+  padding: 13px;
+  background-color: #F6F7F9;
+  border: none;
+  border-radius: 2mm;
+  width: 100%;
+}
+#support textarea {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #F6F7F9;
+  border: none;
+  border-radius: 2mm;
+  padding: 13px;
+}
+#support button {
+  margin: auto;
+  width: 170px;
+  background-color: #3bbca7;
+  border-radius: 2mm;
+  padding: 14px;
+  border: none;
+  margin-top: 10px;
+}
+#support button a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+#support h3 {
+  text-align: center;
+  font-size: 36px;
+  color: #072f60;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 50px;
+}
+#support h3::after {
+  content: "";
+  background-color: #FFD24D;
+  position: absolute;
+  top: 12px;
+  left: 28.5%;
+  border-radius: 50px;
+  width: 150px;
+  height: 22px;
+  z-index: -1;
+}
+
+.iframe {
+  margin: 150px auto;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  #contact .contact1 {
+    background-size: 300%;
+    margin-top: 0;
+    padding: 0;
+  }
+  #telephone .telephone1,
+  #telephone .telephone2,
+  #telephone .telephone3 {
+    border-right: none;
+  }
+  #support {
+    width: 90%;
+  }
+  #support h3 {
+    font-size: 26px;
+    width: 100%;
+  }
+  #support h3::after {
+    content: "";
+    left: 0%;
+    top: 9%;
+  }
+  #support button {
+    margin-right: 170px;
+  }
+}/*# sourceMappingURL=style.css.map */

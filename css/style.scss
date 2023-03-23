@@ -1,0 +1,253 @@
+#contact {
+    .contact1 {
+        background-image: url(../img/REJ93.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 100%;
+        height: 60vh;
+        position: relative;
+
+        .contact-text {
+            position: absolute;
+            top: 40%;
+            left: 40%;
+
+            h1 {
+                color: #072f60;
+                font-size: 32px;
+                line-height: 40px;
+                font-weight: 600;
+            }
+
+            .mini-box {
+                span {
+                    padding-right: 15px;
+                    color: #666666;
+                    cursor: pointer;
+
+
+
+                }
+
+                span:hover {
+                    color: #3bbca7;
+
+                }
+
+                p {
+                    padding-left: 5px;
+                    color: #3bbca7;
+                    cursor: pointer;
+
+                }
+
+            }
+
+        }
+    }
+}
+
+// contact finished\\
+// ===========================\\
+#telephone {
+    width: 60%;
+    margin: auto;
+
+    .telephone1 {
+        text-align: center;
+        border-right: 1px solid #d1d1d1;
+        padding: 20px;
+
+        img {
+            padding-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+
+        p {
+            color: #666666;
+        }
+
+
+    }
+
+    .telephone2 {
+        text-align: center;
+        border-right: 1px solid #d1d1d1;
+        padding: 20px;
+
+        img {
+            padding-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+
+        p {
+            color: #666666;
+        }
+    }
+
+    .telephone3 {
+        text-align: center;
+        padding: 10px;
+
+        img {
+            padding-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+
+        p {
+            color: #666666;
+        }
+    }
+}
+
+// telephone finished\\
+// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+#support {
+
+    width: 70%;
+    margin: 100px auto;
+
+    .support-input {
+        margin-top: 20px;
+
+        input {
+
+            padding: 13px;
+            background-color: #F6F7F9;
+            border: none;
+            border-radius: 2mm;
+            width: 100%;
+        }
+
+
+
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 20px;
+        background-color: #F6F7F9;
+        border: none;
+        border-radius: 2mm;
+        padding: 13px;
+    }
+
+    button {
+        margin: auto;
+        width: 170px;
+        background-color: #3bbca7;
+        border-radius: 2mm;
+        padding: 14px;
+        border: none;
+        margin-top: 10px;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+
+
+        }
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 36px;
+        color: #072f60;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 50px;
+
+
+
+
+        &::after {
+            content: '';
+            background-color: #FFD24D;
+            position: absolute;
+            top: 12px;
+            left: 28.5%;
+            border-radius: 50px;
+            width: 150px;
+            height: 22px;
+            z-index: -1;
+        }
+    }
+
+}
+
+.iframe {
+    margin: 150px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==================================================================\\
+@media(min-width:0px) and (max-width:576px) {
+    #contact {
+        .contact1 {
+            background-size: 300%;
+            margin-top: 0;
+            padding: 0;
+        }
+    }
+
+    #telephone {
+
+        .telephone1,
+        .telephone2,
+        .telephone3 {
+            border-right: none;
+        }
+    }
+
+    #support {
+        width: 90%;
+        h3 {
+            font-size: 26px;
+            width: 100%;
+            &::after{
+            content: '';
+            left: 0%;
+            top: 9%;
+            }
+            
+        }
+        button{margin-right: 170px;}
+    }
+
+
+
+}
